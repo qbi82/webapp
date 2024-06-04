@@ -1,0 +1,36 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Banner styles */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Game listing styles */
+#game-list .card {
+    margin-bottom: 20px;
+}
+
+/* Contact form styles */
+.container {
+    max-width: 600px;
+}
+
+#contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+/* Review form styles */
+#review-form .form-group {
+    margin-bottom: 15px;
+}

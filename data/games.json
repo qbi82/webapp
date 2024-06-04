@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Game 1",
+    "description": "Description of Game 1",
+    "image": "assets/images/game1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Game 2",
+    "description": "Description of Game 2",
+    "image": "assets/images/game2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Game 3",
+    "description": "Description of Game 3",
+    "image": "assets/images/game3.jpg"
+  }
+]
