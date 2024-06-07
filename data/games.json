@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "title": "Game 1",
-    "description": "Description of Game 1",
-    "image": "assets/images/game1.jpg"
+    "title": "The Witcher 3: Wild Hunt",
+    "description": "Wciel się w postać Geralta z Rivii, łowcę potworów, który przemierza olśniewający, ale niebezpieczny świat fantasy. Zadania, których się podejmiesz, wpływają na losy całych krain i decydują o losach wielu postaci. To epicka podróż, pełna walki, intrygi i magii",
+    "image": "assets/images/game33.jpg"
   },
   {
     "id": 2,
-    "title": "Game 2",
-    "description": "Description of Game 2",
-    "image": "assets/images/game2.jpg"
+    "title": "Red Dead Redemption 2",
+    "description": "Przyjrzyj się życiu na Dzikim Zachodzie w epoce upadku bandytyzmu. Wciel się w postać Arthura Morgana, członka gangu Van der Linde, i odkryj mroczne tajemnice i zawiłe intrygi w pełnym szczegółów świecie otwartym. Gra oferuje wiele możliwości, od polowania na zwierzęta po napady na pociągi.",
+    "image": "assets/images/game22.jpg"
   },
   {
     "id": 3,
-    "title": "Game 3",
-    "description": "Description of Game 3",
-    "image": "assets/images/game3.jpg"
+    "title": "The Last of Us Part II",
+    "description": "Kontynuacja gry, która zdobyła uznanie za swoją głębię fabuły i emocjonalne doświadczenie. Gracz wciela się w postać Ellie, która przemierza postapokaliptyczny świat zainfekowany przez wirusa, w poszukiwaniu sprawiedliwości i zemsty. Gra porusza trudne tematy moralne i emocjonalne, oferując jednocześnie niezwykłą historię i niesamowitą rozgrywkę.",
+    "image": "assets/images/game11.jpg"
   }
 ]

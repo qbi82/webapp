@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Reviews</title>
+    <title>Your Cart - Game Store</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">Game Store</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Game Store</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -25,31 +25,23 @@
             <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="review.html">Review</a>
             </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="cartDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Cart <span class="badge badge-pill badge-primary" id="cart-count">0</span>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right p-3" aria-labelledby="cartDropdown">
-                    <div id="cart-items-dropdown">
-                        <!-- Cart items will be loaded here dynamically -->
-                    </div>
-                    <button id="clear-cart-dropdown" class="btn btn-danger btn-sm mt-2">Clear Cart</button>
-                </div>
+            <li class="nav-item active">
+                <a class="nav-link" href="cart.html">Cart</a>
             </li>
         </ul>
     </div>
 </nav>
 
+<!-- Cart Items -->
 <div class="container mt-5">
-    <h2>Game Reviews</h2>
-    <div id="reviews-list" class="mt-4">
-        <!-- Reviews will be loaded here dynamically -->
+    <h2>Your Cart</h2>
+    <div id="cart-items">
+        <!-- Cart items will be loaded here dynamically -->
     </div>
+    <button id="clear-cart" class="btn btn-danger">Clear Cart</button>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>

@@ -1,5 +1,6 @@
 /* General styles */
 body {
+
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -12,8 +13,10 @@ body {
 
 /* Banner styles */
 .carousel-inner img {
-    width: 100%;
-    height: auto;
+    max-width: 10%;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Game listing styles */
@@ -32,5 +35,32 @@ body {
 
 /* Review form styles */
 #review-form .form-group {
+
     margin-bottom: 15px;
+}
+
+/* Cart styles */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cart-item p {
+    margin: 0;
+}
+.cart-item select {
+    margin-left: 10px;
+}
+.remove-from-cart {
+    padding: 5px 10px;
+}
+
+#cart-items-dropdown {
+    max-height: 200px;
+    overflow-y: auto;
 }
