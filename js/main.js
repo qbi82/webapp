@@ -95,6 +95,7 @@ function showGameDetails(gameId) {
 }
 
 // Function to load cart items from localStorage
+// Function to load cart items from localStorage
 function loadCartItems() {
     const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
     const cartContainer = document.getElementById('cart-items-dropdown');
@@ -127,8 +128,11 @@ function loadCartItems() {
 
         // Add event listeners to edition select elements
         document.querySelectorAll('.edit-cart-item').forEach(select => {
+            select.addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent the default behavior of the click event
+                event.stopPropagation(); // Stop the event from propagating to the document
+            });
             select.addEventListener('change', function (event) {
-                event.stopPropagation(); // Stop event propagation
                 const gameId = this.getAttribute('data-id');
                 const newEdition = this.value;
                 updateCartEdition(gameId, newEdition);
@@ -136,6 +140,8 @@ function loadCartItems() {
         });
     }
 }
+
+
 
 
 // Function to add an item to the cart
@@ -247,3 +253,32 @@ function removeReview(reviewIndex) {
     localStorage.setItem('reviews', JSON.stringify(reviews));
     loadReviews();
 }
+
+
+// Function to load selected games for checkout
+function loadSelectedGamesForCheckout() {
+    const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+    const selectedGamesContainer = document.getElementById('selected-games');
+    selectedGamesContainer.innerHTML = '';
+
+    if (cartItems.length === 0) {
+        selectedGamesContainer.innerHTML = '<p>No games selected.</p>';
+    } else {
+        cartItems.forEach(item => {
+            const selectedGame = `
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">${item.title}</h5>
+                        <p class="card-text">Edition: ${item.edition}</p>
+                    </div>
+                </div>
+            `;
+            selectedGamesContainer.innerHTML += selectedGame;
+        });
+    }
+}
+
+// Call the function to load selected games when the DOM is loaded
+document.addEventListener('DOMContentLoaded', function () {
+    loadSelectedGamesForCheckout();
+});

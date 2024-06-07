@@ -1,6 +1,5 @@
 /* General styles */
 body {
-
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -13,7 +12,7 @@ body {
 
 /* Banner styles */
 .carousel-inner img {
-    max-width: 10%;
+    max-width: 15%  ;
     height: 150px;
     display: block;
     margin: 0 auto;
@@ -63,4 +62,10 @@ body {
 #cart-items-dropdown {
     max-height: 200px;
     overflow-y: auto;
+}
+
+#map-container {
+    height: 350px;
+    max-width: 600px; /* Maksymalna szerokość kontenera */
+    margin: 0 auto; /* Wyśrodkowanie kontenera */
 }
