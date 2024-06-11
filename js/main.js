@@ -94,7 +94,7 @@ function showGameDetails(gameId) {
         .catch(error => console.error('Error fetching game details:', error));
 }
 
-// Function to load cart items from localStorage
+
 // Function to load cart items from localStorage
 function loadCartItems() {
     const cartItems = JSON.parse(localStorage.getItem('cart')) || [];

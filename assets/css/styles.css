@@ -1,16 +1,13 @@
-/* General styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-
-/* Navbar styles */
 .navbar {
     margin-bottom: 20px;
 }
 
-/* Banner styles */
 .carousel-inner img {
     max-width: 15%  ;
     height: 150px;
@@ -18,12 +15,11 @@ body {
     margin: 0 auto;
 }
 
-/* Game listing styles */
 #game-list .card {
     margin-bottom: 20px;
 }
 
-/* Contact form styles */
+
 .container {
     max-width: 600px;
 }
@@ -32,13 +28,13 @@ body {
     margin-bottom: 15px;
 }
 
-/* Review form styles */
+
 #review-form .form-group {
 
     margin-bottom: 15px;
 }
 
-/* Cart styles */
+
 .cart-item {
     display: flex;
     justify-content: space-between;
