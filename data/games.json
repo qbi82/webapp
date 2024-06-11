@@ -2,19 +2,16 @@
   {
     "id": 1,
     "title": "The Witcher 3: Wild Hunt",
-    "description": "Wciel się w postać Geralta z Rivii, łowcę potworów, który przemierza olśniewający, ale niebezpieczny świat fantasy. Zadania, których się podejmiesz, wpływają na losy całych krain i decydują o losach wielu postaci. To epicka podróż, pełna walki, intrygi i magii",
-    "image": "assets/images/game33.jpg"
+    "description": "Become Geralt of Rivia, a monster hunter who traverses a dazzling yet dangerous fantasy world. The tasks you undertake influence the fate of entire lands and decide the destinies of many characters. It's an epic journey, full of combat, intrigue, and magic.",    "image": "assets/images/game33.jpg"
   },
   {
     "id": 2,
     "title": "Red Dead Redemption 2",
-    "description": "Przyjrzyj się życiu na Dzikim Zachodzie w epoce upadku bandytyzmu. Wciel się w postać Arthura Morgana, członka gangu Van der Linde, i odkryj mroczne tajemnice i zawiłe intrygi w pełnym szczegółów świecie otwartym. Gra oferuje wiele możliwości, od polowania na zwierzęta po napady na pociągi.",
-    "image": "assets/images/game22.jpg"
+    "description": "Explore life in the Wild West during the decline of outlaw culture. Step into the shoes of Arthur Morgan, a member of the Van der Linde gang, and uncover dark secrets and intricate plots in a detailed open-world. The game offers many possibilities, from hunting animals to robbing trains.",    "image": "assets/images/game22.jpg"
   },
   {
     "id": 3,
     "title": "The Last of Us Part II",
-    "description": "Kontynuacja gry, która zdobyła uznanie za swoją głębię fabuły i emocjonalne doświadczenie. Gracz wciela się w postać Ellie, która przemierza postapokaliptyczny świat zainfekowany przez wirusa, w poszukiwaniu sprawiedliwości i zemsty. Gra porusza trudne tematy moralne i emocjonalne, oferując jednocześnie niezwykłą historię i niesamowitą rozgrywkę.",
-    "image": "assets/images/game333.jpg"
+    "description": "A sequel to the game acclaimed for its storytelling depth and emotional experience. Players take on the role of Ellie, who traverses a post-apocalyptic world infected by a virus in search of justice and revenge. The game tackles difficult moral and emotional themes while offering an extraordinary story and incredible gameplay.",    "image": "assets/images/game333.jpg"
   }
 ]
